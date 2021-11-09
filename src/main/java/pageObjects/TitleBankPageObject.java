@@ -3,7 +3,7 @@ package pageObjects;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TitleBankObject {
+public class TitleBankPageObject {
 
     @FindBy(css = ".mainHeading")
     private SelenideElement title;

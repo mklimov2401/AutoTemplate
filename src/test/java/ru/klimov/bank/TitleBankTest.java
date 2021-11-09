@@ -1,19 +1,17 @@
 package ru.klimov.bank;
 
-import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import pageObjects.TitleBankObject;
+import pageObjects.TitleBankPageObject;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class BankTest extends BaseTest {
+public class TitleBankTest extends BaseTest {
 
 
     @Test
     void openTitlePageBank() {
-        TitleBankObject t = page(TitleBankObject.class);
+        TitleBankPageObject t = page(TitleBankPageObject.class);
 
         open(config.hostname());
         $(t.getTitle()).should(visible).shouldBe(exactTextCaseSensitive("XYZ Bank"));
