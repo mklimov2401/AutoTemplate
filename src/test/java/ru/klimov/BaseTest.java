@@ -1,4 +1,4 @@
-package ru.klimov.bank;
+package ru.klimov;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import configurations.GeneralConfig;

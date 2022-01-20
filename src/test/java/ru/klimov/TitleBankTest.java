@@ -1,4 +1,4 @@
-package ru.klimov.bank;
+package ru.klimov;
 
 import org.junit.jupiter.api.Test;
 import pageObjects.TitleBankPageObject;

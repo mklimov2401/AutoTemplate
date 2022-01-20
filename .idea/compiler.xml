@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="saucedemo" />
+        <module name="AutoTemplate" />
         <module name="XYZ Bank" />
+        <module name="Demo" />
       </profile>
     </annotationProcessing>
   </component>
